@@ -28,3 +28,5 @@ dp_failed[i] = dp_success[i-1]*(len-cnt)+dp_failed[i-1]*(len-cnt-1)`
 最后根据cnt是否为0决定返回`dp_success[len-1]`还是0；
 
 这个思路确实不错，动态规划还是任重道远呀！
+https://www.nowcoder.com/discuss/637553?type=all&order=time&pos=&page=1&channel=-1&source_id=search_all_nctrack
+12楼的大佬的图片
